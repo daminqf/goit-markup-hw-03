@@ -1,0 +1,153 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.link-ul{
+    list-style: none;
+}
+
+.link {
+    font-weight: 500;
+    color: #2E2F42;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.link:focus,
+.link:hover {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-ul{
+    list-style: none;
+}
+
+.address-link {
+    text-decoration: none;
+    text-transform: none;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+.address-link:focus,
+.address-link:hover {
+    color: #404bbf;
+}
+
+.hero {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+
+.hero-title {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-order {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-order:focus,
+.hero-order:hover {
+    background-color: #404bbf;
+}
+
+.section2-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2E2F42;
+    text-align: center;
+}
+
+.feature-ul {
+    list-style: none;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.logo {
+    color: #4D5AE5;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.accent {
+    color: #2E2F42;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.feature-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
+.team-ul {
+    list-style: none;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform:capitalize;
+    color:#2E2F42;
+}
+
+.portfolio-ul {
+    list-style: none;
+}
+
+.team .team-card {
+    background-color: #FFFFFF;
+
+}
+
+.foot {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+.foot .accent {
+    color:#f4f4fd;
+}
+
+.foot .feature-text {
+    color:#f4f4fd
+}
