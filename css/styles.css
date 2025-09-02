@@ -5,6 +5,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
     margin: 0;
 }
 
@@ -17,6 +18,10 @@ img {
     display:block;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -27,12 +32,12 @@ body {
 }
 
 .conteiner {
-    
-    max-width:1440px ;
-    padding-left:0 ;
-    padding-right:0 ;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
     margin-left:156px;
     margin-right:156px;
+    display: flex;
 }
 
 section {
@@ -49,14 +54,17 @@ section {
 
 .nav-conteiner {
     display: flex;
+    align-items: center;
+}
 
+.nav-conteiner .logo {
+    margin-right: 76px;
 }
 
 .link-ul{
     list-style: none;
     display: flex;
-    padding-left: 36px;
-
+    gap: 40px
 }
 
 .link {
@@ -64,7 +72,7 @@ section {
     color: #2E2F42;
     text-decoration: none;
     letter-spacing: 0.02em;
-    padding-left: 40px;
+    padding: 24px 0;
 }
 
 .link:focus,
@@ -79,7 +87,7 @@ section {
 .address-ul{
     list-style: none;
     display: flex;
-    
+    gap: 40px;
 }
 
 .address-link {
@@ -87,7 +95,6 @@ section {
     text-transform: none;
     color: #434455;
     letter-spacing: 0.02em;
-    padding-left: 40px;
 }
 
 .address-link:focus,
@@ -102,10 +109,11 @@ section {
     height: 600px;
     justify-content: center;
     align-items: center;
+    padding: 188px 0px;
 }
 
 .hero-title {
-    width: 496px;
+    max-width: 496px;
     margin-bottom: 48px;
     text-align: center;
     font-size: 56px;
@@ -115,8 +123,8 @@ section {
 }
 
 .hero-order {
-    display: flex;
-    width: 169px;
+    display: block;
+    min-width: 169px;
     height: 56px;
     align-items: flex-start;
     margin: 16px 32px;
@@ -134,6 +142,7 @@ section {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    border: none;
 }
 
 .hero-order:focus,
