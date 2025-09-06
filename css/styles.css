@@ -31,18 +31,29 @@ body {
     background-color: #FFFFFF;
 }
 
-.conteiner {
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.head-conteiner {
+.head-container {
     display: flex;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation .logo {
+    margin-right: 76px;
 }
 
 .link-ul {
     list-style: none;
+    display: flex;
+    gap: 40px;
 }
 
 .link {
@@ -50,6 +61,7 @@ body {
     color: #2E2F42;
     text-decoration: none;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .link:focus,
@@ -63,6 +75,8 @@ body {
 
 .address-ul {
     list-style: none;
+    display: flex;
+    gap: 40px;
 }
 
 .address-link {
