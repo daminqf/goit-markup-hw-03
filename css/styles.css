@@ -133,10 +133,34 @@ body {
     font-size: 36px;
     color: #2E2F42;
     text-align: center;
+    
+}
+
+.feature-li {
+    width: calc((100% - 72px) / 4);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.feature {
+    padding: 120px 0;
 }
 
 .feature-ul {
     list-style: none;
+    display: flex;
+    gap: 24px;
 }
 
 .team {
@@ -164,6 +188,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .feature-text {
