@@ -39,11 +39,13 @@ body {
 
 .head-container {
     display: flex;
+    align-items: center;
 }
 
 .navigation {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 .navigation .logo {
@@ -57,6 +59,7 @@ body {
 }
 
 .link {
+    display: block;
     font-weight: 500;
     color: #2E2F42;
     text-decoration: none;
@@ -98,6 +101,9 @@ body {
 }
 
 .hero-title {
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -107,6 +113,8 @@ body {
 }
 
 .hero-order {
+    margin-right: auto;
+    margin-left: auto;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -242,7 +250,6 @@ body {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .team .team-card {
@@ -273,6 +280,10 @@ body {
 .foot-sec .logo {
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.foot-sec .feature-text {
+    max-width: 264px;
 }
 
 .foot .accent {
